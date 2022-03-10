@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: #DE3163;
+    background: -webkit-linear-gradient(to right, #aca793, #c4bb4a, #F1C40F);
+    background: linear-gradient(to left, #F1C40F, #d8d5d6, #f0e552);
+    height: 35%;
+    width: 570px;
+    margin: auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+
+}
+
+#enterTask input:focus{
+
+    outline: none;
+    border-color: #a2de31;
+ 
+}
+
+#enterTask button{
+    
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    background:rgb(146, 167, 99);
+    color: #fff;
+    border: none;
+    outline: none;
+}   
+
+#enterTask{
+    position: relative;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    background: rgb(98, 137, 155);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(216, 36, 5, 0.3);
+}
+
+#enterTask input{
+    border-radius: 5px;
+    width: 60%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #07aafc;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+}
+
+#task{
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    position: relative;
+}
+ 
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: rgb(145, 151, 240);
+    height: 50px; 
+    margin-top: 10px; 
+    border-bottom: 4px double #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.task span{
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.task button{
+    border: none;
+    background: #515550;
+    height: 100%;
+    width: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
+
